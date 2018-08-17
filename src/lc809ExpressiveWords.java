@@ -3,9 +3,9 @@ import java.util.ArrayList;
 /**
  * Created by bzhao on 4/4/2018.
  */
-public class ExpressiveWords {
+public class lc809ExpressiveWords {
     public static void main(String[] args ){
-        ExpressiveWords ep = new ExpressiveWords();
+        lc809ExpressiveWords ep = new lc809ExpressiveWords();
         String[] words = {"hello", "hi", "helo"};
         System.out.println(ep.expressiveWords("heeellooo", words));
     }
@@ -68,3 +68,4 @@ public class ExpressiveWords {
         }
     }
 }
+
